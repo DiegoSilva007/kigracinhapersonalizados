@@ -93,13 +93,13 @@
     }
     .title_social-media{
         
-        display: none;
+        
         
     }
     .social-icons{
         
        padding-top: 30px;
-       margin-left: 200px;
+       margin-left: 30px;
        width: 200px;
      }
     .social-icons img{
@@ -108,12 +108,7 @@
     
      }
      
-     .instagram img{
-       margin-bottom: 2px;
-       width: 65px;
-        
-       
-     }
+     
      footer{
         width: 110vh;
      }
