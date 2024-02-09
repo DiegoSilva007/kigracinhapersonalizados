@@ -1,0 +1,133 @@
+@media (max-width:1100px){
+    #header{
+        
+        width: 110vh;
+        box-shadow: none;
+    }
+    #logo img{
+        
+        width: 150px;
+    }
+    #btn-contact{
+        width: 140px;
+        height: 45px;
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        
+        
+        
+    }
+    #title{
+        width: 500px;
+        height: 500px;
+    }
+    .title_banner{
+        font-size: 50px;
+    }
+    #main{
+        grid-template-columns: 1fr;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        width: 600px;
+        
+    }
+    #banner img{
+        width: 500px;
+    }
+    #container{
+        grid-template-columns: 1fr;
+        width: 600px;
+        
+    }
+    #notebook{
+        height: 650px;
+        width: 590px;
+        padding-left: 20px;
+        
+        padding-top: 25px;
+
+    }
+    #title_notebook{
+        
+        font-size: 40px;
+    }
+    #subtitle_notebook{
+        font-size: 25px;
+    }
+    .slider{
+        
+        height: 300px;
+        margin-top: 95px;
+    }
+    .manual-navigation{
+        display: none;
+    }
+    .navigation-auto div{
+        display: none;
+    }
+    
+    .slide img{
+        width: 200px;
+    }
+    #coffee_container{
+        grid-template-columns: 1fr;
+        width: 600px;
+        
+        
+    }
+    .mug_text{
+        height: 650px;
+        width: 590px;
+        padding-left: 20px;
+        
+        padding-top: 25px;
+    }
+    #title_mug{
+        font-size: 40px;
+    }
+    #subtitle_mug{
+        font-size: 25px;
+    }
+    .mug img{
+        width: 500px;
+    }
+    .title_social-media{
+        
+        display: none;
+        
+    }
+    .social-icons{
+        
+       padding-top: 30px;
+       margin-left: 200px;
+       width: 200px;
+     }
+    .social-icons img{
+        
+        width: 70px;
+    
+     }
+     
+     .instagram img{
+       margin-bottom: 2px;
+       width: 65px;
+        
+       
+     }
+     footer{
+        width: 110vh;
+     }
+     
+     
+}
+
+@media (min-width:820px) and (max-width: 1023px) {
+    #header{
+        width: 70vh;
+    }
+    footer{
+        
+        width: 90vh;
+     }
+     
+}

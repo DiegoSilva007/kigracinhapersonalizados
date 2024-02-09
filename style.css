@@ -1,0 +1,262 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fefefe;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    
+   
+
+}
+
+#logo img{
+    width: 200px;
+    
+
+}
+#Contato{
+    margin-right: 50px;
+}
+
+#btn-contact{
+    text-decoration: none;
+    border-style: none;
+    width: 200px;
+    height: 60px;
+    background-color: rgb(152, 23, 23);
+    font-size: 20px;
+    border-radius: 70px;
+    
+    
+}
+
+#btn-contact a{
+    text-decoration: none;
+    color: #fefefe;
+}
+#title{
+    font-weight: bolder;
+    width: 700px;
+    height: 500px;
+    margin-top: 50px;
+    padding-left: 20px;
+
+    
+}
+#main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+
+#banner img{
+width: 600px;
+margin-top: 20px;
+
+}
+.title_banner{
+    
+    color:rgb(152, 23, 23);
+    font-size: 70px;
+
+    
+    
+  
+
+
+}
+
+
+.subtitle_banner{
+    font-weight: lighter;
+    color: black;
+    font-size: 25px;
+}
+
+.slider{
+    
+    width: 600px;
+    height: 700px;
+    overflow: hidden;
+    
+
+}
+.slides{
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    
+    width: 25%;
+    position: relative;
+    transition: 2s;
+}
+
+.slide img{
+    width: 450px;
+    padding-left: 130px;
+
+}
+
+.manual-navigation {
+    position: absolute;
+    width: 800px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-navigation {
+    position: absolute;
+    width: 800px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn{
+    border: 2px solid rgb(16, 15, 15);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+    
+}
+.manual-btn:hover{
+    background-color:rgb(152, 23, 23); ;
+}
+#radio1:checked ~ .first{
+   margin-left: 0;
+}
+#radio2:checked ~ .first{
+    margin-left: -25%;
+ }
+ #radio3:checked ~ .first{
+    margin-left: -50%;
+ }
+ #radio4:checked ~ .first{
+    margin-left: -75%;
+ }
+ .navigation-auto div{
+    border: 2px solid blue;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+ }
+ .navigation-auto{
+    position: absolute;
+    width: 800px;
+    margin-top: 600px;
+    display: flex;
+    justify-content: center;
+ }
+ .navigation-auto div:not(:last-child){
+    margin-right: 40px;
+ }
+ #radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color:rgb(152, 23, 23);
+
+ }
+ #radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color:rgb(152, 23, 23);
+
+ }
+ #radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color:rgb(152, 23, 23);
+
+ }
+ #radio4:checked ~ .navigation-auto .auto-btn4{
+    background-color:rgb(152, 23, 23);
+
+ }
+ #container{
+    
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+ }
+ #notebook{
+    border-radius: 15px;
+    background-color:rgb(152, 23, 23);
+    width: 700px;
+    padding-left: 40px;
+ }
+ #title_notebook{
+    font-weight: bolder;
+    color:rgb(251, 249, 249);
+    font-size: 70px;
+    
+ }
+ #subtitle_notebook{
+    
+    font-weight: lighter;
+    color:rgb(251, 249, 249);
+    font-size: 25px;
+ }
+ .title_social-media{
+    font-weight: bolder;
+    color: rgb(152, 23, 23);
+    font-size: 30px;
+    margin-left: 115px;
+    
+ }
+ .social-icons{
+    margin-top: 20px;
+    margin-left: 510px;
+ }
+ .social-icons img{
+    width: 90px;
+
+ }
+
+ .instagram img{
+    margin-bottom: 5px;
+    width: 80px;
+    margin-left: 30px;
+ }
+ /* Estilo geral do footer */
+footer {
+    background-color:rgb(152, 23, 23);
+    padding: 20px 0;
+    color: #fefefe;
+    font-family: Arial, sans-serif;
+}
+
+/* Container do footer */
+.footer-container {
+    align-items: center;
+}
+.direitos{
+    color: #fefefe;
+}
+
+
+
+
+
+
+/* Rodapé inferior com direitos autorais */
+.footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+    color: #666;
+}
+
+/* Adicione mais estilos conforme necessário */
