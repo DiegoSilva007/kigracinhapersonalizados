@@ -75,9 +75,10 @@ margin-top: 20px;
 
 
 .subtitle_banner{
-    font-weight: lighter;
+    font-weight: bold;
     color: black;
     font-size: 25px;
+
 }
 
 .slider{
@@ -218,13 +219,19 @@ margin-top: 20px;
     padding-top: 60px;
     
  }
+ 
+ 
  .social-icons{
     margin-top: 20px;
     margin-left: 30px;
  }
  .social-icons img{
-    width: 90px;
+    width: 75px;
 
+ }
+ .instagram img{
+   width: 60px;
+   margin-bottom: 7px;
  }
 
  

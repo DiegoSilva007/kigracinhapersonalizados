@@ -9,9 +9,9 @@
         width: 150px;
     }
     #btn-contact{
-        width: 140px;
-        height: 45px;
-        font-size: 15px;
+        width: 180px;
+        height: 70px;
+        font-size: 20px;
         font-family: 'Montserrat', sans-serif;
         font-weight: bold;
         
@@ -19,16 +19,20 @@
         
     }
     #title{
-        width: 500px;
+        width: 610px;
         height: 500px;
+        font-weight: bold;
     }
     .title_banner{
-        font-size: 50px;
+        font-size: 70px;
+    }
+    .subtitle_banner{
+        font-size: 27px;
     }
     #main{
         grid-template-columns: 1fr;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        width: 600px;
+        width: 110vh;
         
     }
     #banner img{
@@ -41,7 +45,7 @@
     }
     #notebook{
         height: 650px;
-        width: 590px;
+        width: 105vh;
         padding-left: 20px;
         
         padding-top: 25px;
@@ -77,7 +81,7 @@
     }
     .mug_text{
         height: 650px;
-        width: 590px;
+        width: 105vh;
         padding-left: 20px;
         
         padding-top: 25px;
@@ -89,12 +93,13 @@
         font-size: 25px;
     }
     .mug img{
-        width: 500px;
+        width: 500px; 
+    }
+    .instagram img{
+        width: 20px;
     }
     .title_social-media{
-        
-        
-        
+        font-size: 50px;
     }
     .social-icons{
         
@@ -104,9 +109,14 @@
      }
     .social-icons img{
         
-        width: 70px;
+        width: 75px;
     
      }
+     .instagram img{
+        width: 60px;
+        margin-bottom: 7px;
+      }
+     
      
      
      footer{
