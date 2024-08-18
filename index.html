@@ -5,14 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kigracinha</title>
     <link rel="stylesheet" href="./style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https//fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./coffee.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
     <link rel="stylesheet" href="mediqueries.css">
-    
-</head>
+    <link rel="stylesheet" href="Pet.css">
+    <link rel="shortcut icon" href="./favicon-16x16.png" type="image/x-icon">
+    <link rel="stylesheet" href="categorias.css">
+    <link rel="stylesheet" href="namorados.css">  
+    <link rel="stylesheet" href="./friends.css">
+  <link rel="stylesheet" href="./Café.css"> 
+  <link rel="stylesheet" href="./mediaquery-modals.css">    
+  
+     
+</head>   
 <body>
     <header id="header">
         <div id="logo">
@@ -34,7 +42,7 @@
         </div>
         
 
-    </header>
+    </header> 
     <main id="main">
         <div id="title">
           <span class="title_banner">Personalização que reflete você. </span>
@@ -53,14 +61,14 @@
 
     </main>
     <div id="container">
-    <div class="slider">
+        <div class="slider">
             
         <div class="slides">
             <input type="radio" name="radio-btn" id="radio1">
             <input type="radio" name="radio-btn" id="radio2">
             <input type="radio" name="radio-btn" id="radio3">
             <input type="radio" name="radio-btn" id="radio4">
-
+                   
             <div class="slide first">
                 <img src="./assets/Cad slide 1.jpg" alt="">
 
@@ -93,15 +101,13 @@
             <label for="radio2" class="manual-btn"></label>
             <label for="radio3" class="manual-btn"></label>
             <label for="radio4" class="manual-btn"></label>
-
-
-
+        
         </div>
         
     </div>
     <div id="notebook">
         <span id="title_notebook">
-            Se Organize Com Estilo
+            Se Organize Com <br> Estilo
         </span>
         <span id="subtitle_notebook">
             <p>Quando você abre sua agenda, está abrindo uma janela para seu mundo - seus compromissos, suas metas, sua jornada. 
@@ -115,20 +121,187 @@
 
     </div>
 </div>
+
+</div> 
+</div>
 <div id="coffee_container">
     <div class="mug_text">
         <span id="title_mug">Canecas feitas sob medida para você.</span>
         <span id="subtitle_mug"> 
             <p>
-           Personalize sua pausa para o café com nossas canecas feitas especialmente para você.
-          Deixe sua marca com uma mensagem inspiradora, uma foto memorável ou simplesmente seu nome - as possibilidades são infinitas.
+          Deixe sua marca com uma mensagem inspiradora, uma foto memorável ou simplesmente seu nome - <br> as possibilidades são infinitas.
          
           
          <br>
           <p>Feitas com materiais de alta qualidade e impressão duradoura, 
-            nossas canecas são a escolha perfeita para quem busca um toque de personalidade em cada momento.</span>
+            nossas canecas são a escolha perfeita <br> para quem busca um toque de personalidade em cada momento. 
+            <br>
+            <br>
+         <span class="coleções"> Veja algumas de nossas coleções!</span> 
+        </span> 
         </p>  
+            <button id="abrir_pet">
+                <i class="fas fa-paw"></i> Pets
+            </button>
+            <dialog>
+                <div id="modal-container1"> 
+                    <div id="modal_pets">
+                        <button id="fechar_modal1"><i class="fas fa-times"></i>
+                        </button>
+                       <span class="titulo_pet"><h1> Presenteie o seu Pet </h1>
+                        Faça seu pet se sentir especial com uma caneca única e personalizada! </span>  
+                    <div class="slide_pet">
+                       
+                        <button id="previous-slide_pet" > 
+                            &#10094; 
+                        </button> 
+                        
+                        <button id="next-slide_pet">
+                            &#10095;
+                        </button>
+                     <div id= "Slider_Pet">   
+                        <div class="content-Pet"> 
+                          <img src="./assets/A091-Photoroom.png">
+                          <img src="./assets/AM58-Photoroom.png">
+                          <img src="./assets/BA89-Photoroom.png">
+                          <img src="./assets/C7-Photoroom.png">
+                          <img src="./assets/05-Photoroom.png"> 
+ 
+                        </div>
+                       
+                     </div>
+                        
+                    </div>
+                                  
+                </div>
+            </dialog>
+            <button id="abrir_namorados"> 
+                <span> <i class="fa fa-heart"></i> Namorados </span>
+            </button> 
+            <dialog id="modal_love">  
+                <div id="modal_container-namorados"> 
+                    <div id="modal_namorados"> 
+                        <button id="fechar_namorados"> 
+                            <span> <i class="fas fa-times"></i></span> 
+                        </button> 
+                      <span id="titulo_namorados"><h1>Surpreenda Seu Amor </h1>
+                         Um toque de romance em cada caneca. </span>   
+                        <div id="Slider_namorados">
+                            <button id="previous-slide_nam" > 
+                                &#10094; 
+                            </button> 
+                            
+                            <button id="next-slide_nam">
+                                &#10095;
+                            </button>
+                            <div id="slide_namorados">
+                                <div class="content-namorados"> 
+                                    <img src="./assets/namorado1-Photoroom.png" >
+                                    <img src="./assets/namorado2-Photoroom.png" >
+                                    <img src="./assets/namorado3-Photoroom.png">
+                                    <img src="./assets/namorado4-Photoroom.png" >
+                                    <img src="./assets/namorado 5-Photoroom.png">
+                                    
+
+
+                                </div>
+
+                            </div>
+
+                        </div> 
+
+                    </div> 
+
+                </div>
+            </dialog>
+            <button id="abrir_amizade">
+                <span> <i class="fas fa-handshake"></i> Amizade</span></button>
+                <dialog id="modal_amizade">
+                    <div id="modal_container-friends"> 
+                        <button id="close_friends">  
+                            <i class="fa fa-times"> </i> 
+
+                        </button>
+                        <div id="modal-friends">
+                           
+                       <div id="titulo_friends">    
+                        <span> <h1> Para Seu Melhor Amigo </h1> 
+                         Valorize a amizade com um presente único <br> e significativo.
+                         </span>
+                          
+                        
+                        </div> 
+                        <div id="Slider_friends">
+                            <button id="prev_friends"> 
+                                &#10094;  
+                            </button>
+                            <button id="next_friends">    
+                                &#10095;
+                             </button>
+                            <div id="slide_friends">  
+                                <div id="content_friends">  
+                                    <img src="./assets/amigos 1-Photoroom.png">
+                                    <img src="./assets/amigos 2-Photoroom.png">
+                                    <img src="./assets/amigos 3-Photoroom.png">
+                                    <img src="./assets/amigos 4-Photoroom.png">
+                                    <img src="./assets/amigos 5-Photoroom.png"> 
+                                    
+
+   
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        </div>
+                    </div>
+                </dialog>   
+               
+               
+                
+                <button id="abrir_café">
+                    <span><i class="fa fa-coffee"></i> Café</span></button>
+            <dialog id="modal_café"> 
+                <div id="modal-container_coffee">  
+                    <div id="modal-coffee"> 
+                        <button id="close_coffee"> 
+                         <i class="fa fa-times"></i> 
+                       </button>   
+                        <div id="titulo_coffee">
+                         <span> <h1> Amantes do Café</h1> 
+                            Cada gole de café é um sorriso garantido. </span> 
+                        </div>
+                        <div id="Slider_coffee"> 
+                            <button id="prev_coffee">
+                                &#10094;
+                             </button>
+                           <button id="next_coffee">
+                            &#10095; 
+                           </button>
+                        <div id="slide_coffee">
+                                <div id="content_coffee">   
+                                   <img src="./assets/garfield.png" >
+                                   <img src="./assets/patrick.png" >
+                                   <img src="./assets/bob.png"> 
+                                   <img src="./assets/homer.png">
+                                   <img src="./assets/mickey (1).png">
+                                  
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </dialog>
             
+
     </div>
 
     <div class="mug">
@@ -137,31 +310,39 @@
     </div>
 </div>
 
-    <div class="title_social-media">
+    
+       <div class="title_social-media">  
         Veja mais em nossas redes sociais!
     </div>
+    
     
     <div class="social-icons">
         <span>
             <a href="https://www.facebook.com/artekigracinha" target="_blank" rel="noopener noreferrer">
-                <img src="./assets/Facebook_icon-icons.com_55914.png" alt="" >
+                <i class="fab fa-facebook"></i>
             </a>
-           
-                <span class="instagram">
-                    <a href="https://www.instagram.com/kigracinhapersonalizados/" target="_blank" rel="noopener noreferrer">
-                <img src="./in 2.png" alt="">
+           <a href="https://www.instagram.com/kigracinhapersonalizados/" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-instagram"></i>
+
+           </a>
+            
                  
-                 </a>
-                </span>
+                
+                
          </span>
          
     </div>
 
-    
-    
-    
-  
-   <script src="./script.js"></script>
+    <script src="./script.js"></script>
+   <script src="./pet.js"></script>
+   <script src="./pet_modal.js"></script>
+   <script src="./namorados.js"></script> 
+   <script src="./modal-nam.js"></script>
+   <script src="./friends.js"></script> 
+   <script src="./modal_friends.js"></script>
+   <script src="./Café.js"></script>
+   <script src="./modal-coffee.js"></script>
+
 </body>
 
 <footer>

@@ -1,0 +1,57 @@
+#abrir_pet{
+    text-decoration: none;
+    border-style: none;
+   background-color: transparent;
+   font-size: 90%;
+   color: white;
+   cursor: pointer;
+ 
+ }
+ .fa-paw{
+     font-size: 40px;
+ }
+ #abrir_infantil{
+    text-decoration: none;
+    border-style: none; 
+   background-color: transparent;
+   font-size: 90%;
+   color: white;
+   cursor: pointer;
+}
+.fa-child{
+    font-size: 30px;
+}
+#abrir_namorados{
+    text-decoration: none;
+    border-style: none;
+   background-color: transparent;
+   font-size: 90%;
+   color: white;
+   cursor: pointer;
+ 
+}
+.fa-heart{
+font-size: 30px;
+}
+#abrir_amizade{
+    text-decoration: none;
+    border-style: none;
+   background-color: transparent;
+   font-size: 90%; 
+   color: white;
+   cursor: pointer;
+}
+.fa-handshake{
+    font-size: 30px;
+}
+#abrir_café{
+    text-decoration: none;
+    border-style: none;
+   background-color: transparent;
+   font-size: 90%; 
+   color: white;
+   cursor: pointer;
+}
+.fa-coffee{
+    font-size: 30px;
+}

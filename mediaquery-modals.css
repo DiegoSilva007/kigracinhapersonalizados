@@ -1,0 +1,1803 @@
+@media (min-width:300px) and (max-width: 375px)  {
+    #modal-container1{
+        width: 100% !important;
+        height: 100% !important;
+        position: fixed; /* Use 'fixed' para garantir que ele se sobreponha a tudo */ 
+        background-color: rgba(22, 22, 22, 0.805);
+        align-items: center;  
+        justify-content: center;
+        z-index: 999;
+     } 
+     #modal_pets{
+        grid-template-columns: 1fr !important; 
+        width: 85%  !important; 
+        height: 190vh !important;
+     } 
+     #fechar_modal1{
+        margin-top:  100vh !important; 
+        position: absolute;
+        
+        
+     }
+     .fa-times{
+        font-size: 40px !important ;
+       
+    }
+    #previous-slide_pet{
+        margin-right: 60vh;
+        height: 5% !important;
+        width: 12vh !important;
+        font-size: 7vh !important;
+    }
+    #next-slide_pet{
+        margin-left: 150vh;
+        height: 5% !important;
+        width: 12vh !important;
+        font-size: 7vh !important;
+     
+    }
+    #Slider_Pet{
+        margin-left: 47vh;
+        
+    }
+    #modal_container-namorados{
+        width: 100%;
+        height: 100%;
+        position: fixed; /* Use 'fixed' para garantir que ele se sobreponha a tudo */
+        top: 0;
+        left: 0;
+        background-color: rgba(22, 22, 22, 0.805);
+        display: flex;
+        z-index: 999;
+    }
+    #modal_namorados{
+        width: 82%;
+        min-width: 450px;
+        min-height: 200px;
+        background-color: white;
+        padding: 50px;
+        border-radius: 15px;
+        height: 50%; 
+        display: grid;
+        grid-template-columns: 1fr; 
+        padding-left: 10vh;
+        padding-top: 30vh;
+    }
+    #fechar_namorados{
+        position: absolute;
+        top: 650px;
+        right: 100px;
+        width: 35px;
+        height: 35px;
+        border-style: none;
+        background-color: transparent;
+        border-radius: 2px;
+    }
+    .fa-times{
+        font-size: 20px;
+    } 
+    
+    #slide_namorados{ 
+        width: 600px;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+        margin-left: 27%;
+    
+    } 
+    .content-namorados{
+        display: flex;  
+    }
+    #slide_namorados img{ 
+        width: 600px;
+       
+        
+    }
+    #previous-slide_nam{ 
+        text-decoration: none;
+        border-style: none;
+        color: white;
+        background-color: rgb(152, 23, 23);
+        position: absolute;
+        margin-top: 20% ;
+        right: 160vh;
+        height: 5%;
+        width: 12vh;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 50px;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    #next-slide_nam{  
+        text-decoration: none;
+        border-style: none;
+        background-color: rgb(152, 23, 23);
+        margin-left: 625px;
+        position: absolute;
+        margin-top: 20% ;
+        color: white;
+        height: 5%;
+        width: 12vh;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 50px;
+        justify-content: center;
+        align-items: center;
+        right: 250px;
+    
+    }
+    #modal_container-friends{
+        width: 100%;
+        height: 100%;
+        position: fixed; /* Use 'fixed' para garantir que ele se sobreponha a tudo */
+        top: 0;
+        left: 0;
+        background-color: rgba(22, 22, 22, 0.805);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 999;
+    }
+    #modal-friends{
+        width: 90%;
+        background-color: white;
+        padding: 50px;
+        border-radius: 15px; 
+        display: grid;
+        height: 50%;
+        grid-template-columns: 1fr;
+    }
+    #close_friends{
+        position: absolute;
+        top: 97vh;
+        right: 80px;
+        width: 35px;
+        height: 35px;
+        border-style: none;
+        background-color: transparent; 
+        border-radius: 2px; 
+    }
+    .fa-times{
+        font-size: 20px;
+    }
+    #slide_friends{ 
+        overflow-x: hidden; 
+        width: 650px;
+        scroll-behavior: smooth;
+        margin-left: 27%;
+        
+    } 
+    #content_friends{
+        display: flex;
+    } 
+    #slide_friends img{
+        width: 650px;
+    }
+    #prev_friends{
+        text-decoration: none;
+        border-style: none;
+        color: white;
+        background-color: rgb(152, 23, 23);
+        position: absolute;
+        margin-top: 20% ;
+        right: 170vh; 
+        height: 5%;
+        width: 12vh;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 50px;
+        justify-content: center;
+        align-items: center;
+    }  
+    #next_friends{
+        text-decoration: none;
+        border-style: none;
+        color: white;
+        background-color: rgb(152, 23, 23);
+        position: absolute;
+        margin-top: 20% ;
+        right: 100px;
+        height: 5%;
+        width: 12vh;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+    #modal-container_coffee{
+        width: 100%;
+        height: 100%;
+        position: fixed; /* Use 'fixed' para garantir que ele se sobreponha a tudo */
+        top: 0;
+        left: 0;
+        background-color: rgba(22, 22, 22, 0.805);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 999;
+    }
+    #modal-coffee{
+        width: 90% !important;
+        height: 50% !important;
+        background-color: white;
+        padding: 50px;
+        border-radius: 15px;
+        height: 80%; 
+        display: grid; 
+        grid-template-columns: 1fr;
+    }
+    
+    #close_coffee{
+        position: absolute;
+        top: 100vh;
+        right: 80px;
+        width: 35px;
+        height: 35px;
+        border-style: none;
+        background-color: transparent; 
+        border-radius: 2px; 
+    }
+    .fa-times{
+        font-size: 20px;
+    }
+    #slide_coffee{ 
+        overflow-x: hidden; 
+        width: 650px;
+        scroll-behavior: smooth;
+        margin-left: 30%;
+    }
+    #content_coffee{
+        display: flex;
+    }  
+    #slide_coffee img{
+        width: 650px;
+    }
+    #prev_coffee{
+        text-decoration: none;
+        border-style: none;
+        color: white;
+        background-color: rgb(152, 23, 23);
+        position: absolute;
+        margin-top: 20% ;
+        right: 177vh; 
+        height: 5%;
+        width: 12vh;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 50px;
+        justify-content: center;
+        align-items: center;
+    }  
+    #next_coffee{
+        text-decoration: none;
+        border-style: none;
+        color: white;
+        background-color: rgb(152, 23, 23);
+        position: absolute;
+        margin-top: 20% ;
+        right: 87px;
+        height: 5%;
+        width: 12vh;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    
+
+    
+        
+}
+@media (min-width: 344px) and (max-width: 359px){
+    #modal_container-namorados{
+        width: 100%;
+        height: 100%;
+        position: fixed; /* Use 'fixed' para garantir que ele se sobreponha a tudo */
+        top: 0;
+        left: 0;
+        background-color: rgba(22, 22, 22, 0.805);
+        display: flex;
+        z-index: 999;
+    }
+    #modal_namorados{
+        width: 82%;
+        min-width: 450px;
+        min-height: 200px;
+        background-color: white;
+        padding: 50px;
+        border-radius: 15px;
+        height: 50%; 
+        display: grid;
+        grid-template-columns: 1fr; 
+        padding-left: 10vh;
+        padding-top: 30vh;
+    }
+    #fechar_namorados{
+        position: absolute;
+        top: 800px;
+        right: 100px;
+        width: 35px;
+        height: 35px;
+        border-style: none;
+        background-color: transparent;
+        border-radius: 2px;
+    }
+    .fa-times{
+        font-size: 50px;
+    } 
+    
+    #slide_namorados{ 
+        width: 600px;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+        margin-left: 27%;
+    
+    } 
+    .content-namorados{
+        display: flex;  
+    }
+    #slide_namorados img{ 
+        width: 600px;
+       
+        
+    }
+    #previous-slide_nam{ 
+        text-decoration: none;
+        border-style: none;
+        color: white;
+        background-color: rgb(152, 23, 23);
+        position: absolute;
+        margin-top: 20% ;
+        right: 130vh;
+        height: 5%;
+        width: 12vh;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 50px;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    #next-slide_nam{  
+        text-decoration: none;
+        border-style: none;
+        background-color: rgb(152, 23, 23);
+        margin-left: 625px;
+        position: absolute;
+        margin-top: 20% ;
+        color: white;
+        height: 5%;
+        width: 12vh;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 50px;
+        justify-content: center;
+        align-items: center;
+        right: 150px;  
+    
+    }
+    #modal_container-friends{
+        width: 100%;
+        height: 100%;
+        position: fixed; /* Use 'fixed' para garantir que ele se sobreponha a tudo */
+        top: 0;
+        left: 0;
+        background-color: rgba(22, 22, 22, 0.805);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 999;
+    }
+    #modal-friends{
+        width: 90%;
+        background-color: white;
+        padding: 50px;
+        border-radius: 15px; 
+        display: grid;
+        height: 50%;
+        grid-template-columns: 1fr;
+    }
+    #close_friends{
+        position: absolute;
+        top: 97vh;
+        right: 80px;
+        width: 35px;
+        height: 35px;
+        border-style: none;
+        background-color: transparent; 
+        border-radius: 2px; 
+    }
+    .fa-times{
+        font-size: 20px;
+    }
+    #slide_friends{ 
+        overflow-x: hidden; 
+        width: 650px;
+        scroll-behavior: smooth;
+        margin-left: 27%;
+        
+    } 
+    #content_friends{
+        display: flex;
+    } 
+    #slide_friends img{
+        width: 650px;
+    }
+    #prev_friends{
+        text-decoration: none;
+        border-style: none;
+        color: white;
+        background-color: rgb(152, 23, 23);
+        position: absolute;
+        margin-top: 20% ;
+        right: 140vh; 
+        height: 5%;
+        width: 12vh;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 50px;
+        justify-content: center;
+        align-items: center;
+    }  
+    #next_friends{
+        text-decoration: none;
+        border-style: none;
+        color: white;
+        background-color: rgb(152, 23, 23);
+        position: absolute;
+        margin-top: 20% ;
+        right: 100px;
+        height: 5%;
+        width: 12vh;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+    #modal-container_coffee{
+        width: 100%;
+        height: 100%;
+        position: fixed; /* Use 'fixed' para garantir que ele se sobreponha a tudo */
+        top: 0;
+        left: 0;
+        background-color: rgba(22, 22, 22, 0.805);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 999;
+    }
+    #modal-coffee{
+        width: 90% !important;
+        height: 50% !important;
+        background-color: white;
+        padding: 50px;
+        border-radius: 15px;
+        height: 80%; 
+        display: grid; 
+        grid-template-columns: 1fr;
+    }
+    
+    #close_coffee{
+        position: absolute;
+        top: 100vh;
+        right: 80px;
+        width: 35px;
+        height: 35px;
+        border-style: none;
+        background-color: transparent; 
+        border-radius: 2px; 
+    }
+    .fa-times{
+        font-size: 20px;
+    }
+    #slide_coffee{ 
+        overflow-x: hidden; 
+        width: 650px;
+        scroll-behavior: smooth;
+        margin-left: 30%;
+    }
+    #content_coffee{
+        display: flex;
+    }  
+    #slide_coffee img{
+        width: 650px;
+    }
+    #prev_coffee{
+        text-decoration: none;
+        border-style: none;
+        color: white;
+        background-color: rgb(152, 23, 23);
+        position: absolute;
+        margin-top: 20% ;
+        right: 130vh;     
+        height: 5%;
+        width: 12vh;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 50px;
+        justify-content: center;
+        align-items: center;
+    }  
+    #next_coffee{
+        text-decoration: none;
+        border-style: none;
+        color: white;
+        background-color: rgb(152, 23, 23);
+        position: absolute;
+        margin-top: 20% ;
+        right: 87px;
+        height: 5%;
+        width: 12vh;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (min-width:390px) and (max-width: 411px)  {
+    #modal-container1{
+        width: 100% !important;
+        height: 100% !important;
+        position: fixed; /* Use 'fixed' para garantir que ele se sobreponha a tudo */ 
+        background-color: rgba(22, 22, 22, 0.805);
+        align-items: center;  
+        justify-content: center;
+        z-index: 999;
+     } 
+     #modal_pets{
+        grid-template-columns: 1fr !important; 
+        width: 85%  !important; 
+        height: 190vh !important;
+     } 
+     #fechar_modal1{
+        margin-top:  93vh !important; 
+        position: absolute;
+        
+        
+     }
+     .fa-times{
+        font-size: 40px !important ;
+       
+    }
+    #previous-slide_pet{
+        margin-right: 60vh;
+        height: 5% !important;
+        width: 12vh !important;
+        font-size: 7vh !important;
+    }
+    #next-slide_pet{
+        margin-left: 140vh;
+        height: 5% !important;
+        width: 12vh !important;
+        font-size: 7vh !important;
+     
+    }
+    #Slider_Pet{
+        margin-left: 47vh;
+        
+    }
+    #modal_container-namorados{
+        width: 178vh;
+        height: 100%;
+        position: fixed; /* Use 'fixed' para garantir que ele se sobreponha a tudo */
+        top: 0;
+        left: 0;
+        background-color: rgba(22, 22, 22, 0.805);
+        display: flex;
+        z-index: 999;
+        align-items: center;  
+        justify-content: center;     
+    }
+    #modal_namorados{
+        width: 80%;
+        background-color: white;
+        border-radius: 15px;
+        height: 50%; 
+        display: grid;
+        grid-template-columns: 1fr; 
+    }
+    #fechar_namorados{
+        position: absolute;
+        top: 95vh;
+        right: 130px;
+        width: 35px;
+        height: 35px;
+        border-style: none;
+        background-color: transparent;
+        border-radius: 2px;
+    }
+    .fa-times{
+        font-size: 20px;
+    } 
+    
+    #slide_namorados{ 
+        width: 600px;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+        margin-left: 27%;
+    
+    } 
+    .content-namorados{
+        display: flex;  
+    }
+    #slide_namorados img{ 
+        width: 600px;
+       
+        
+    }
+    #previous-slide_nam{ 
+        text-decoration: none;
+        border-style: none;
+        color: white;
+        background-color: rgb(152, 23, 23);
+        position: absolute;
+        margin-top: 20% ;
+        right: 140vh;
+        height: 5%;
+        width: 12vh;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 50px;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    #next-slide_nam{  
+        text-decoration: none;
+        border-style: none;
+        background-color: rgb(152, 23, 23);
+        margin-left: 625px;
+        position: absolute;
+        margin-top: 20% ;
+        color: white;
+        height: 5%;
+        width: 12vh;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 50px;
+        justify-content: center;
+        align-items: center;
+        right: 150px;
+    
+    }
+    #modal_container-friends{
+        width: 100%;
+        height: 100%;
+        position: fixed; /* Use 'fixed' para garantir que ele se sobreponha a tudo */
+        top: 0;
+        left: 0;
+        background-color: rgba(22, 22, 22, 0.805);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 999;
+    }
+    #modal-friends{
+        width: 90%;
+        background-color: white;
+        padding: 50px;
+        border-radius: 15px; 
+        display: grid;
+        height: 50%;
+        grid-template-columns: 1fr;
+    }
+    #close_friends{
+        position: absolute;
+        top: 97vh;
+        right: 80px;
+        width: 35px;
+        height: 35px;
+        border-style: none;
+        background-color: transparent; 
+        border-radius: 2px; 
+    }
+    .fa-times{
+        font-size: 20px;
+    }
+    #slide_friends{ 
+        overflow-x: hidden; 
+        width: 650px;
+        scroll-behavior: smooth;
+        margin-left: 27%;
+        
+    } 
+    #content_friends{
+        display: flex;
+    } 
+    #slide_friends img{
+        width: 650px;
+    }
+    #prev_friends{
+        text-decoration: none;
+        border-style: none;
+        color: white;
+        background-color: rgb(152, 23, 23);
+        position: absolute;
+        margin-top: 20% ;
+        right: 140vh; 
+        height: 5%;   
+        width: 12vh;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 50px;
+        justify-content: center;
+        align-items: center;
+    }  
+    #next_friends{
+        text-decoration: none;
+        border-style: none;
+        color: white;
+        background-color: rgb(152, 23, 23);
+        position: absolute;
+        margin-top: 20% ;
+        right: 100px;
+        height: 5%;
+        width: 12vh;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+    #modal-container_coffee{
+        width: 100%;
+        height: 100%;
+        position: fixed; /* Use 'fixed' para garantir que ele se sobreponha a tudo */
+        top: 0;
+        left: 0;
+        background-color: rgba(22, 22, 22, 0.805);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 999;
+    }
+    #modal-coffee{
+        width: 90% !important;
+        height: 50% !important;
+        background-color: white;
+        padding: 50px;
+        border-radius: 15px;
+        height: 80%; 
+        display: grid; 
+        grid-template-columns: 1fr;
+    }
+    
+    #close_coffee{
+        position: absolute;
+        top: 100vh;
+        right: 80px;
+        width: 35px;
+        height: 35px;
+        border-style: none;
+        background-color: transparent; 
+        border-radius: 2px; 
+    }
+    .fa-times{
+        font-size: 20px;
+    }
+    #slide_coffee{ 
+        overflow-x: hidden; 
+        width: 650px;
+        scroll-behavior: smooth;
+        margin-left: 30%;
+    }
+    #content_coffee{
+        display: flex;
+    }  
+    #slide_coffee img{
+        width: 650px;
+    }
+    #prev_coffee{
+        text-decoration: none;
+        border-style: none;
+        color: white;
+        background-color: rgb(152, 23, 23);
+        position: absolute;
+        margin-top: 20% ;
+        right: 150vh;
+        height: 5%;
+        width: 12vh;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 50px;
+        justify-content: center;
+        align-items: center;
+    }  
+    #next_coffee{
+        text-decoration: none;
+        border-style: none;
+        color: white;
+        background-color: rgb(152, 23, 23);
+        position: absolute;
+        margin-top: 20% ;
+        right: 87px;
+        height: 5%;
+        width: 12vh;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+}
+@media (min-width:412px) and (max-width: 767px)  {
+    #modal-container1{
+        width: 100% !important;
+        height: 100% !important;
+        position: fixed; /* Use 'fixed' para garantir que ele se sobreponha a tudo */ 
+        background-color: rgba(22, 22, 22, 0.805);
+        align-items: center;  
+        justify-content: center;
+        z-index: 999;
+     } 
+     #modal_pets{
+        grid-template-columns: 1fr !important; 
+        width: 85%  !important; 
+        height: 190vh !important;
+     } 
+     #fechar_modal1{
+        margin-top: 85vh !important; 
+        position: absolute;  
+        
+     }
+     .fa-times{
+        font-size: 40px !important ;
+       
+    }
+    #previous-slide_pet{
+        right: 180vh !important;
+        height: 5% !important;
+        width: 12vh !important;
+        font-size: 7vh !important;
+    }
+    #next-slide_pet{
+        margin-left: 165vh !important;
+        height: 5% !important;
+        width: 12vh !important;
+        font-size: 7vh !important;
+    }
+    #Slider_Pet{
+        margin-left: 47vh;
+        
+    }
+    #modal_container-namorados{
+        width: 100% !important;  
+        height: 100%;
+        position: fixed; /* Use 'fixed' para garantir que ele se sobreponha a tudo */
+        top: 0;
+        left: 0;
+        background-color: rgba(22, 22, 22, 0.805);
+        display: flex;
+        z-index: 999;
+        align-items: center;  
+        justify-content: center;
+    }
+    #modal_namorados{
+        width: 80%;
+        background-color: white;
+        border-radius: 15px;
+        height: 50%; 
+        display: grid;
+        grid-template-columns: 1fr; 
+        padding-left: 15vh;
+    }
+    #fechar_namorados{
+        position: absolute;
+        top: 80vh !important;
+        right: 130px;
+        width: 35px;
+        height: 35px;
+        border-style: none;
+        background-color: transparent;
+        border-radius: 2px;
+    }
+    .fa-times{
+        font-size: 20px;
+    } 
+    
+    #slide_namorados{ 
+        width: 600px;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+        margin-left: 27%;
+    
+    } 
+    .content-namorados{
+        display: flex;  
+    }
+    #slide_namorados img{ 
+        width: 600px;
+       
+        
+    }
+    #previous-slide_nam{ 
+        text-decoration: none;
+        border-style: none;
+        color: white;
+        background-color: rgb(152, 23, 23);
+        position: absolute;
+        margin-top: 20% ;
+        right: 120vh !important;
+        height: 5%;
+        width: 12vh;
+        border-radius: 10px;
+        cursor: pointer;  
+        font-weight: bold;
+        font-size: 50px;
+        justify-content: center;
+        align-items: center;
+        
+    
+    }
+    #next-slide_nam{  
+        text-decoration: none;
+        border-style: none;
+        background-color: rgb(152, 23, 23);
+        margin-left: 625px;
+        position: absolute;
+        margin-top: 20% ;
+        color: white;
+        height: 5%;
+        width: 12vh;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 50px;
+        justify-content: center;
+        align-items: center;
+        right: 150px;
+    
+    }
+    #modal_container-friends{
+        width: 100% !important;
+        height: 100%;
+        position: fixed; /* Use 'fixed' para garantir que ele se sobreponha a tudo */
+        top: 0;
+        left: 0;
+        background-color: rgba(22, 22, 22, 0.805);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 999;
+    }
+    #modal-friends{
+        width: 90%;
+        background-color: white;
+        padding: 50px;
+        border-radius: 15px; 
+        display: grid;
+        height: 50%;
+        grid-template-columns: 1fr;
+       
+    }
+    #close_friends{
+        position: absolute;
+        top: 87vh; 
+        right: 80px;
+        width: 35px;
+        height: 35px;
+        border-style: none;
+        background-color: transparent; 
+        border-radius: 2px; 
+    }
+    .fa-times{
+        font-size: 20px;
+    }
+    #slide_friends{ 
+        overflow-x: hidden; 
+        width: 650px;
+        scroll-behavior: smooth;
+        margin-left: 27%;
+        
+    } 
+    #content_friends{
+        display: flex;
+    } 
+    #slide_friends img{
+        width: 650px;
+    }
+    #prev_friends{ 
+        text-decoration: none;
+        border-style: none;
+        color: white;
+        background-color: rgb(152, 23, 23);
+        position: absolute;
+        margin-top: 20% ;
+        right: 140vh; 
+        height: 5%;
+        width: 12vh;  
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 50px;
+        justify-content: center;
+        align-items: center;
+    }  
+    #next_friends{
+        text-decoration: none;
+        border-style: none;
+        color: white;
+        background-color: rgb(152, 23, 23);
+        position: absolute;
+        margin-top: 20% ;
+        right: 100px;
+        height: 5%;
+        width: 12vh;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+    #modal-container_coffee{
+        width: 100%;
+        height: 100%;
+        position: fixed; /* Use 'fixed' para garantir que ele se sobreponha a tudo */
+        top: 0;
+        left: 0;
+        background-color: rgba(22, 22, 22, 0.805);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 999;
+    }
+    #modal-coffee{
+        width: 90% !important;
+        height: 50% !important;
+        background-color: white;
+        padding: 50px;
+        border-radius: 15px;
+        height: 80%; 
+        display: grid; 
+        grid-template-columns: 1fr;
+    }
+    
+    #close_coffee{
+        position: absolute;
+        top: 100vh;
+        right: 80px;
+        width: 35px;
+        height: 35px;
+        border-style: none;
+        background-color: transparent; 
+        border-radius: 2px; 
+    }
+    .fa-times{
+        font-size: 20px;
+    }
+    #slide_coffee{ 
+        overflow-x: hidden; 
+        width: 650px;
+        scroll-behavior: smooth;
+        margin-left: 30%;
+    }
+    #content_coffee{
+        display: flex;
+    }  
+    #slide_coffee img{
+        width: 650px;
+    }
+    #prev_coffee{
+        text-decoration: none;
+        border-style: none;
+        color: white;
+        background-color: rgb(152, 23, 23);
+        position: absolute;
+        margin-top: 20% ;
+        right: 140vh;
+        height: 5%;
+        width: 12vh;  
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 50px;
+        justify-content: center;
+        align-items: center;
+    }  
+    #next_coffee{
+        text-decoration: none;
+        border-style: none;
+        color: white;
+        background-color: rgb(152, 23, 23);
+        position: absolute;
+        margin-top: 20% ;
+        right: 87px;
+        height: 5%;
+        width: 12vh;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+@media (min-width: 768px) and (max-width: 819px){
+    #modal-container1{
+        width: 100% !important;
+        height: 100% !important;
+        position: fixed; /* Use 'fixed' para garantir que ele se sobreponha a tudo */ 
+        background-color: rgba(22, 22, 22, 0.805);
+        align-items: center;    
+        justify-content: center;
+        z-index: 999;
+     } 
+     #modal_pets{
+        grid-template-columns: 1fr !important; 
+        width: 85%  !important; 
+        height: 150vh !important; 
+     } 
+     #fechar_modal1{
+        margin-top: 22vh !important; 
+        position: absolute;  
+        
+     }
+     .fa-times{
+        font-size: 40px !important ;
+       
+    }
+    #previous-slide_pet{
+        right: 130vh !important;
+        height: 7% !important;
+        width: 12vh !important;
+        font-size: 7vh !important;
+    }
+    #next-slide_pet{
+        margin-left: 120vh !important;
+        height: 7% !important;
+        width: 12vh !important;
+        font-size: 7vh !important;
+    }
+    #Slider_Pet{
+        margin-left: 47vh;
+        
+    }  
+    #modal_container-namorados{
+        width: 100% !important;
+        height: 100%;
+        position: fixed; /* Use 'fixed' para garantir que ele se sobreponha a tudo */
+        top: 0;
+        left: 0;
+        background-color: rgba(22, 22, 22, 0.805);
+        display: flex;
+        z-index: 999;
+    }
+    #modal_namorados{
+        width: 82%;
+        min-width: 450px;
+        min-height: 200px;
+        background-color: white;
+        padding: 50px;
+        border-radius: 15px;
+        height: 50%; 
+        display: grid;
+        grid-template-columns: 1fr; 
+        padding-left: 10vh;
+        padding-top: 30vh;
+    }
+    #fechar_namorados{
+        position: absolute;
+        top: 40vh !important;
+        right: 100px;
+        width: 35px;
+        height: 35px;
+        border-style: none;
+        background-color: transparent;
+        border-radius: 2px;
+    }
+    .fa-times{
+        font-size: 20px;
+    } 
+    
+    #slide_namorados{ 
+        width: 600px;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+        margin-left: 27%;
+    
+    } 
+    .content-namorados{
+        display: flex;  
+    }
+    #slide_namorados img{ 
+        width: 600px;
+       
+        
+    }
+    #previous-slide_nam{ 
+        text-decoration: none;
+        border-style: none;
+        color: white;
+        background-color: rgb(152, 23, 23);
+        position: absolute;
+        margin-top: 20% ;
+        right: 127vh !important;
+        height: 5%;
+        width: 12vh;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;    
+        font-size: 50px;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    #next-slide_nam{  
+        text-decoration: none;
+        border-style: none;
+        background-color: rgb(152, 23, 23);
+        margin-left: 625px;
+        position: absolute;
+        margin-top: 20% ;
+        color: white;
+        height: 5%;
+        width: 12vh;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 50px;
+        justify-content: center;
+        align-items: center;
+        right: 250px;
+    
+    }
+    #modal_container-friends{
+        width: 100%;
+        height: 100%;
+        position: fixed; /* Use 'fixed' para garantir que ele se sobreponha a tudo */
+        top: 0;
+        left: 0;
+        background-color: rgba(22, 22, 22, 0.805);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 999;
+    }
+    #modal-friends{
+        width: 90%;
+        background-color: white;
+        padding: 50px;
+        border-radius: 15px; 
+        display: grid;
+        height: 50%;
+        grid-template-columns: 1fr;
+    }
+    #close_friends{
+        position: absolute;
+        top: 50vh;
+        right: 80px;
+        width: 35px;
+        height: 35px;
+        border-style: none;
+        background-color: transparent; 
+        border-radius: 2px; 
+    }
+    .fa-times{
+        font-size: 20px;
+    }
+    #slide_friends{ 
+        overflow-x: hidden; 
+        width: 650px;
+        scroll-behavior: smooth;
+        margin-left: 27%;
+        
+    } 
+    #content_friends{
+        display: flex;
+    } 
+    #slide_friends img{
+        width: 650px;
+    }  
+    #prev_friends{
+        text-decoration: none;
+        border-style: none;
+        color: white;
+        background-color: rgb(152, 23, 23);
+        position: absolute;
+        margin-top: 20% ;
+        right: 120vh;  
+        height: 5%;
+        width: 12vh;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 50px;
+        justify-content: center;
+        align-items: center;
+    }  
+    #next_friends{
+        text-decoration: none;
+        border-style: none;
+        color: white;
+        background-color: rgb(152, 23, 23);
+        position: absolute;
+        margin-top: 20% ;
+        right: 100px;
+        height: 5%;
+        width: 12vh;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+    #modal-container_coffee{
+        width: 100%;
+        height: 100%;
+        position: fixed; /* Use 'fixed' para garantir que ele se sobreponha a tudo */
+        top: 0;
+        left: 0;
+        background-color: rgba(22, 22, 22, 0.805);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 999;
+    }
+    #modal-coffee{
+        width: 90% !important;
+        height: 50% !important;
+        background-color: white;
+        padding: 50px;
+        border-radius: 15px;
+        height: 80%; 
+        display: grid; 
+        grid-template-columns: 1fr;
+    }
+    
+    #close_coffee{
+        position: absolute;
+        top: 50vh;
+        right: 80px;
+        width: 35px;
+        height: 35px;
+        border-style: none;
+        background-color: transparent; 
+        border-radius: 2px; 
+    }
+    .fa-times{
+        font-size: 20px;
+    }
+    #slide_coffee{ 
+        overflow-x: hidden; 
+        width: 650px;
+        scroll-behavior: smooth;
+        margin-left: 30%;
+    }
+    #content_coffee{
+        display: flex;
+    }  
+    #slide_coffee img{
+        width: 650px;
+    }
+    #prev_coffee{
+        text-decoration: none;
+        border-style: none;
+        color: white;
+        background-color: rgb(152, 23, 23);
+        position: absolute;
+        margin-top: 20% ;
+        right: 120vh;
+        height: 5%;
+        width: 12vh;
+        border-radius: 10px;
+        cursor: pointer;   
+        font-weight: bold;
+        font-size: 50px;
+        justify-content: center;
+        align-items: center;
+    }  
+    #next_coffee{
+        text-decoration: none;
+        border-style: none;
+        color: white;
+        background-color: rgb(152, 23, 23);
+        position: absolute;
+        margin-top: 20% ;
+        right: 87px;
+        height: 5%;
+        width: 12vh;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media(min-width: 820px) and (max-width: 900px){
+    #modal-container1{
+        width: 100% !important;
+        height: 100% !important;
+        position: fixed; /* Use 'fixed' para garantir que ele se sobreponha a tudo */ 
+        background-color: rgba(22, 22, 22, 0.805);
+        align-items: center;  
+        justify-content: center;
+        z-index: 999;
+     } 
+     #modal_pets{
+        grid-template-columns: 1fr !important; 
+        width: 85%  !important; 
+        height: 150vh !important; 
+     } 
+     #fechar_modal1{
+        margin-top: 22vh !important; 
+        position: absolute;  
+        
+     }
+     .fa-times{
+        font-size: 40px !important ;
+       
+    }
+    #previous-slide_pet{
+        right: 130vh !important;
+        height: 7% !important;
+        width: 12vh !important;
+        font-size: 7vh !important;
+    }
+    #next-slide_pet{
+        margin-left: 120vh !important;
+        height: 7% !important;
+        width: 12vh !important;
+        font-size: 7vh !important;
+    }
+    #Slider_Pet{
+        margin-left: 47vh;
+        
+    }
+    #modal_container-namorados{
+        width: 100%;
+        height: 100%;
+        position: fixed; /* Use 'fixed' para garantir que ele se sobreponha a tudo */
+        top: 0;
+        left: 0;
+        background-color: rgba(22, 22, 22, 0.805);
+        display: flex;
+        z-index: 999;
+    }
+    #modal_namorados{
+        width: 82%;
+        min-width: 450px;
+        min-height: 200px;
+        background-color: white;
+        padding: 50px;
+        border-radius: 15px;
+        height: 50%; 
+        display: grid;
+        grid-template-columns: 1fr; 
+        padding-left: 10vh;
+        padding-top: 30vh;
+    }
+    #fechar_namorados{
+        position: absolute;
+        top: 650px;
+        right: 100px;
+        width: 35px;
+        height: 35px;
+        border-style: none;
+        background-color: transparent;
+        border-radius: 2px;
+    }
+    .fa-times{
+        font-size: 20px;
+    } 
+    
+    #slide_namorados{ 
+        width: 600px;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+        margin-left: 27%;
+    
+    } 
+    .content-namorados{
+        display: flex;  
+    }
+    #slide_namorados img{ 
+        width: 600px;
+       
+        
+    }
+    #previous-slide_nam{ 
+        text-decoration: none;
+        border-style: none;
+        color: white;
+        background-color: rgb(152, 23, 23);
+        position: absolute;
+        margin-top: 20% ;
+        right: 160vh;
+        height: 5%;
+        width: 12vh;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 50px;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    #next-slide_nam{  
+        text-decoration: none;
+        border-style: none;
+        background-color: rgb(152, 23, 23);
+        margin-left: 625px;
+        position: absolute;
+        margin-top: 20% ;
+        color: white;
+        height: 5%;
+        width: 12vh;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 50px;
+        justify-content: center;
+        align-items: center;
+        right: 250px;
+    
+    }    
+    #modal-container_coffee{
+        width: 100%;
+        height: 100%;
+        position: fixed; /* Use 'fixed' para garantir que ele se sobreponha a tudo */
+        top: 0;
+        left: 0;
+        background-color: rgba(22, 22, 22, 0.805);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 999;
+    }
+    #modal-coffee{
+        width: 90% !important;
+        height: 50% !important;
+        background-color: white;
+        padding: 50px;
+        border-radius: 15px;
+        height: 80%; 
+        display: grid; 
+        grid-template-columns: 1fr;
+    }
+    
+    #close_coffee{
+        position: absolute;
+        top: 100vh;
+        right: 80px;
+        width: 35px;
+        height: 35px;
+        border-style: none;
+        background-color: transparent; 
+        border-radius: 2px; 
+    }
+    .fa-times{
+        font-size: 20px;
+    }
+    #slide_coffee{ 
+        overflow-x: hidden; 
+        width: 650px;
+        scroll-behavior: smooth;
+        margin-left: 30%;
+    }
+    #content_coffee{
+        display: flex;
+    }  
+    #slide_coffee img{
+        width: 650px;
+    }
+    #prev_coffee{
+        text-decoration: none;
+        border-style: none;
+        color: white;
+        background-color: rgb(152, 23, 23);
+        position: absolute;
+        margin-top: 20% ;
+        right: 190vh;
+        height: 5%;
+        width: 12vh;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 50px;
+        justify-content: center;
+        align-items: center;
+    }  
+    #next_coffee{
+        text-decoration: none;
+        border-style: none;
+        color: white;
+        background-color: rgb(152, 23, 23);
+        position: absolute;
+        margin-top: 20% ;
+        right: 87px;
+        height: 5%;
+        width: 12vh;
+        border-radius: 10px; 
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 50px;
+        justify-content: center;
+        align-items: center;
+    }    
+}
+@media (min-height: 845px) and (max-height:895px){
+    #fechar_modal1{
+        margin-top: 100vh !important; 
+        position: absolute;
+        
+     } 
+     #next-slide_pet{
+        margin-left: 120vh !important;
+        height: 5% !important;
+        width: 12vh !important;
+        font-size: 7vh !important;
+    }
+    #previous-slide_pet{
+        right: 70vh !important;
+        height: 5% !important;
+        width: 12vh !important;
+        font-size: 7vh !important;
+    }
+}
+@media (min-height:896px) and  (max-height: 899px)  {
+    #fechar_modal1{
+        margin-top: 83vh; 
+        position: absolute;
+                    
+     }
+    #previous-slide_pet{
+        right: 140vh !important;
+        height: 5% !important;
+        width: 12vh !important;
+        font-size: 7vh !important;
+    }
+    #next-slide_pet{
+        margin-left: 130vh !important;
+        height: 5% !important;
+        width: 12vh !important;
+        font-size: 7vh !important;
+    }
+    #Slider_Pet{
+        margin-left: 37vh;
+        
+    }
+   
+}
+@media (min-height:900px) and  (max-height: 1190px)  {
+    #fechar_modal1{
+        margin-top: 75vh; 
+        position: absolute;
+        
+     }
+    #previous-slide_pet{
+        right: 130vh !important;
+        height: 5% !important;
+        width: 12vh !important;
+        font-size: 7vh !important;
+    }
+    #next-slide_pet{
+        margin-left: 120vh !important;
+        height: 5% !important;
+        width: 12vh !important;
+        font-size: 7vh !important;
+    }
+    #Slider_Pet{
+        margin-left: 37vh;
+        
+    }
+    #modal_container-namorados{
+        width: 90%; 
+        height: 100%;
+        position: fixed; /* Use 'fixed' para garantir que ele se sobreponha a tudo */
+        top: 0;
+        left: 0;
+        background-color: rgba(22, 22, 22, 0.805);
+        display: flex;
+        z-index: 999;
+    }
+    #modal_namorados{
+        width: 82%;
+        min-width: 450px;
+        min-height: 200px;
+        background-color: white;
+        padding: 50px;
+        border-radius: 15px;
+        height: 50%;   
+        display: grid;
+        grid-template-columns: 1fr; 
+        padding-left: 10vh;
+        padding-top: 30vh;
+    }
+    #fechar_namorados{
+        position: absolute;
+        top: 650px;
+        right: 100px;
+        width: 35px;
+        height: 35px;
+        border-style: none;
+        background-color: transparent;
+        border-radius: 2px;
+    }
+    .fa-times{
+        font-size: 20px;
+    } 
+    
+    #slide_namorados{ 
+        width: 600px;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+        margin-left: 27%;
+    
+    } 
+    .content-namorados{
+        display: flex;  
+    }
+    #slide_namorados img{ 
+        width: 600px;
+       
+        
+    }
+    #previous-slide_nam{ 
+        text-decoration: none;
+        border-style: none;
+        color: white;
+        background-color: rgb(152, 23, 23);
+        position: absolute;
+        margin-top: 20% ;
+        right: 160vh;
+        height: 5%;
+        width: 12vh;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 50px;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    #next-slide_nam{  
+        text-decoration: none;
+        border-style: none;
+        background-color: rgb(152, 23, 23);
+        margin-left: 625px;
+        position: absolute;
+        margin-top: 20% ;
+        color: white;
+        height: 5%;
+        width: 12vh;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 50px;
+        justify-content: center;
+        align-items: center;
+        right: 250px;
+    
+    }
+}

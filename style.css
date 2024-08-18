@@ -10,10 +10,7 @@ body {
     justify-content: space-between;
     background: #fefefe;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    
-   
-
-}
+ }
 
 #logo img{
     width: 200px;
@@ -51,7 +48,7 @@ body {
 }
 #main{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns:  1fr 1fr;
 
 }
 
@@ -198,11 +195,13 @@ margin-top: 20px;
     background-color:rgb(152, 23, 23);
     width: 700px;
     padding-left: 40px;
+    padding-top: 10px;
  }
  #title_notebook{
     font-weight: bolder;
     color:rgb(251, 249, 249);
-    font-size: 70px;
+    font-size: 60px;
+   
     
  }
  #subtitle_notebook{
@@ -216,22 +215,23 @@ margin-top: 20px;
     color: rgb(152, 23, 23);
     font-size: 30px;
     margin-left: 30px;
-    padding-top: 60px;
-    
- }
+    padding-top: 5%;
+  }
  
  
  .social-icons{
     margin-top: 20px;
     margin-left: 30px;
  }
- .social-icons img{
-    width: 75px;
-
+ .fa-facebook{
+    font-size: 80px;
+    color: black;
+    
  }
- .instagram img{
-   width: 60px;
-   margin-bottom: 7px;
+ .fa-instagram{
+   font-size: 80px;
+   margin-left: 15px;
+   color: black;
  }
 
  

@@ -1,0 +1,88 @@
+#modal_container-namorados{
+    width: 100vw;
+    height: 100vh;
+    position: fixed; /* Use 'fixed' para garantir que ele se sobreponha a tudo */
+    top: 0;
+    left: 0;
+    background-color: rgba(22, 22, 22, 0.805);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+#modal_namorados{
+    width: 83%;
+    min-width: 450px;
+    min-height: 200px;
+    background-color: white;
+    padding: 50px;
+    border-radius: 15px;
+    height: 80%; 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#fechar_namorados{
+    position: absolute;
+    top: 30px;
+    right: 80px;
+    width: 35px;
+    height: 35px;
+    border-style: none;
+    background-color: transparent;
+    border-radius: 2px;
+}
+.fa-times{
+    font-size: 20px;
+} 
+
+#slide_namorados{ 
+    width: 600px;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+
+} 
+.content-namorados{
+    display: flex;  
+}
+#slide_namorados img{
+    width: 600px;
+   
+    
+}
+#previous-slide_nam{ 
+    text-decoration: none;
+    border-style: none;
+    color: white;
+    background-color: rgb(152, 23, 23);
+    position: absolute;
+    margin-top: 20% ;
+    right: 720px;
+    width: 45px;
+    height: 9%;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+
+}
+#next-slide_nam{  
+    text-decoration: none;
+    border-style: none;
+    background-color: rgb(152, 23, 23);
+    margin-left: 625px;
+    position: absolute;
+    margin-top: 20% ;
+    color: white;
+    width: 45px;
+    height: 9%;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    right: 110px;
+
+}        

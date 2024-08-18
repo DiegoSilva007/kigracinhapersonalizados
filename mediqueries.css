@@ -1,42 +1,41 @@
-@media (max-width:1190px){
+ 
+ @media (min-width:300px) and (max-width: 900px)  {
     #header{
-        
-        width: 110vh;
+       
+        width: 77em;
         box-shadow: none;
     }
     #logo img{
-        
-        width: 150px;
+        width: 300px;
     }
     #btn-contact{
-        width: 180px;
-        height: 70px;
-        font-size: 20px;
+        width: 310px;
+        height: 100px;
+        font-size: 30px;
         font-family: 'Montserrat', sans-serif;
         font-weight: bold;
-        
-        
-        
-    }
+        }
     #title{
-        width: 610px;
+        width: 150vh;
         height: 500px;
         font-weight: bold;
     }
     .title_banner{
-        font-size: 70px;
+        font-size: 90px;
     }
     .subtitle_banner{
-        font-size: 27px;
+        font-size: 50px;
     }
     #main{
-        grid-template-columns: 1fr;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        width: 110vh;
+        grid-template-columns:  1fr;
+        box-shadow: none;
+        width: 80em;
         
     }
     #banner img{
-        width: 500px;
+        margin-top: 300px;
+        width: 700px;
+        
     }
     #container{
         grid-template-columns: 1fr;
@@ -44,24 +43,27 @@
         
     }
     #notebook{
-        height: 650px;
-        width: 105vh;
+        height: 170vh;
+        width: 77em;
         padding-left: 20px;
-        
-        padding-top: 25px;
+       margin-top: 30px;
+       padding-top: 50px;
+
 
     }
     #title_notebook{
-        
-        font-size: 40px;
+       
+        font-size: 90px;
     }
     #subtitle_notebook{
-        font-size: 25px;
+        font-size: 57px;
     }
     .slider{
-        
-        height: 300px;
-        margin-top: 95px;
+      
+        margin-left: 100px;
+        height: 925px;
+        margin-top: 200px;
+        width: 890px;
     }
     .manual-navigation{
         display: none;
@@ -71,68 +73,201 @@
     }
     
     .slide img{
-        width: 200px;
+        width: 500px;
     }
     #coffee_container{
         grid-template-columns: 1fr;
         width: 600px;
-        
+        margin-top: 110px;
         
     }
     .mug_text{
-        height: 650px;
-        width: 105vh;
-        padding-left: 20px;
-        
-        padding-top: 25px;
+        height: 200vh; 
+        width: 77em;
+        padding-left: 50px;
+        padding-top: 50px;
+        margin-left: 13em;
     }
+    
+
     #title_mug{
-        font-size: 40px;
+        font-size: 90px;
     }
     #subtitle_mug{
-        font-size: 25px;
+        font-size: 57px;
     }
-    .mug img{
-        width: 500px; 
+   
+    .mug img{ 
+        margin-top: 300px;
+        width: 1060px; 
     }
-    .instagram img{
-        width: 20px;
+    .fa-facebook{
+      font-size: 150px;
+    }
+    .fa-instagram{
+        font-size: 150px;
     }
     .title_social-media{
-        font-size: 50px;
+        font-size: 90px;
+        width: 10em;
     }
     .social-icons{
-        
+       
        padding-top: 30px;
-       margin-left: 30px;
-       width: 200px;
+       
+       width: 90vh;
      }
-    .social-icons img{
-        
-        width: 75px;
-    
-     }
-     .instagram img{
-        width: 60px;
-        margin-bottom: 7px;
-      }
      
+     
+  
      
      
      footer{
-        width: 110vh;
+        margin-top: 100px;
+        width: 30em;
+        font-size: 50px;
      }
      
+    
      
-}
-
-@media (min-width:820px) and (max-width: 1023px) {
-    #header{
-        width: 70vh;
     }
-    footer{
+
+
+
+
+    @media (min-width:340px) and (max-width: 821px) and (orientation: landscape){
+   
+        #header{
+            
+            width: 80em;
+            box-shadow: none;
+        }
+        #logo img{
+            width: 300px;
+        }
+        #btn-contact{
+            width: 310px;
+            height: 100px;
+            font-size: 30px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+            }
+        #title{
+            width: 60em;
+            height: 500px;
+            font-weight: bold;
+        }
+        .title_banner{
+            font-size: 90px;
+        }
+        .subtitle_banner{
+            font-size: 50px;
+        }
+        #main{
+            grid-template-columns:  1fr;
+            box-shadow: none;
+            width: 80em;
+            
+        }
+        #banner img{
+            margin-top: 600px;
+            width: 700px;
+            
+        }
+        #container{
+            grid-template-columns: 1fr;
+            width: 600px;
+            
+        }
+        #notebook{
+            height: 310vh;
+            width: 77em;
+            padding-left: 20px;
+           margin-top: 30px;
+           padding-top: 50px;
+    
+    
+        }
+        #title_notebook{
+           
+            font-size: 90px;
+        }
+        #subtitle_notebook{
+            font-size: 57px;
+        }
+        .slider{
+          
+            margin-left: 100px;
+            height: 925px;
+            margin-top: 200px;
+            width: 890px;
+        }
+        .manual-navigation{
+            display: none;
+        }
+        .navigation-auto div{
+            display: none;
+        }
         
-        width: 90vh;
-     }
-     
-}
+        .slide img{
+            width: 500px;
+        }
+        #coffee_container{
+            grid-template-columns: 1fr;
+            width: 600px;
+            margin-top: 110px;
+            
+        }
+        .mug_text{
+            height: 370vh; 
+            width: 77em;
+            padding-left: 50px;
+            padding-top: 50px;
+            margin-left: 13em;
+        }
+        
+    
+        #title_mug{
+            font-size: 90px;
+        }
+        #subtitle_mug{
+            font-size: 57px;
+        }
+       
+        .mug img{ 
+            margin-top: 300px;
+            width: 1060px; 
+        }
+        .fa-facebook{
+          font-size: 150px;
+        }
+        .fa-instagram{
+            font-size: 150px;
+        }
+        .title_social-media{
+            font-size: 90px;
+            width: 10em;
+        }
+        .social-icons{
+           
+           padding-top: 30px;
+           
+           width: 90vh;
+         }
+      
+         
+         
+         footer{
+            margin-top: 100px;
+            width: 30em;
+            font-size: 50px;
+         }
+         
+        
+         
+        }
+    
+    
+    
+    
+    

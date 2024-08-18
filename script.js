@@ -3,9 +3,7 @@ document.getElementById('radio1').checked = true;
 
 setInterval( function(){
 nextimage();
-}, 3000)
-
-
+}, 4000)
 function nextimage() {
     count++;
     if(count>4){
@@ -13,3 +11,4 @@ function nextimage() {
     }
     document.getElementById('radio'+count).checked = true;
 }
+ 

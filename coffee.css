@@ -9,12 +9,14 @@
     background-color:rgb(152, 23, 23);
     border-radius: 15px;
     padding-left: 35px;
-    
+    padding-top: 10px;
+    height: 610px;
 }
 #title_mug{
     font-weight: bolder;
-    font-size: 70px;
+    font-size: 60px;
     color: white;
+    
     
 }
 #subtitle_mug{
@@ -22,8 +24,12 @@
     font-size: 25px;
     color: white;
 }
+.coleções{
+    font-weight: bold;
+}
 .mug img{ 
-    
+
     width: 645px;
     margin-bottom: 5px;
 }
+
