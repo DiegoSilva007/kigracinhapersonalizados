@@ -6,7 +6,7 @@
         background-color: rgba(22, 22, 22, 0.805);
         align-items: center;  
         justify-content: center;
-        z-index: 999;
+        z-index: 999;   
      } 
      #modal_pets{
         grid-template-columns: 1fr !important; 
@@ -20,7 +20,7 @@
         
      }
      .fa-times{
-        font-size: 40px !important ;
+        font-size: 50px !important;
        
     }
     #previous-slide_pet{
@@ -61,7 +61,7 @@
         display: grid;
         grid-template-columns: 1fr; 
         padding-left: 10vh;
-        padding-top: 30vh;
+       
     }
     #fechar_namorados{
         position: absolute;
@@ -74,7 +74,7 @@
         border-radius: 2px;
     }
     .fa-times{
-        font-size: 20px;
+        font-size: 50px !important;
     } 
     
     #slide_namorados{ 
@@ -161,7 +161,7 @@
         border-radius: 2px; 
     }
     .fa-times{
-        font-size: 20px;
+        font-size: 50px !important;
     }
     #slide_friends{ 
         overflow-x: hidden; 
@@ -244,7 +244,7 @@
         border-radius: 2px; 
     }
     .fa-times{
-        font-size: 20px;
+        font-size: 50px !important;
     }
     #slide_coffee{ 
         overflow-x: hidden; 
